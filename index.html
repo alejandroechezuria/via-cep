@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEP</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        body{
+          display: inline-block;
+          background: hsl(277, 18%, 19%);;
+          border: 1px solid #000000;
+          
+        }
+        h1{
+            color: aliceblue;
+        }
+        label{
+            display: table;
+            padding: 10px;
+           color: aliceblue;
+        }
+        input{
+            padding: 5px;
+
+        }
+        input[type="text"]{
+            max-width: 400px;
+            width: 100%;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Informe o CEP para que podamos procesar, de forma automatica as demais informaciones:</h1>
+    <form id="from"> 
+    
+        
+         <label for="cep">CEP:<input type="text" id="cep" maxlength="9"></label><small>00000-000</small>
+         
+         <label for="logradouro">Logradouro:<input type="text" id="logradouro"></label><small></small>
+         <label for="bairro">Bairro:<input type="text" id="bairro"></label><small></small>
+         <label for="localidade">Localidade:<input type="text" id="localidade"></label><small></small>
+         <label for="uf">UF:<input type="text" id="uf"></label><small></small>
+         
+            
+    </form>
+    <script src="scre.js"></script>
+</body>
+
+
+</html>
